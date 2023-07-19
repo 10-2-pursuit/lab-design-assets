@@ -1,11 +1,12 @@
 *{
     padding: 10px;
     margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
 
 
 body {
-    background: aqua;
+    background: linear-gradient(135deg, #20c997, #0dcaf0);
 }
 
