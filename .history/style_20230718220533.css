@@ -1,0 +1,98 @@
+body {
+  background-image: url("./assets/beach-beach-party.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  color: skyblue;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  font-family: Calibri Light, Calibri;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 30px;
+  color: skyblue;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+.about,
+.passion {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.about {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 200px;
+  width: 35%;
+}
+
+.about p {
+  word-wrap: width;
+}
+.passion p {
+  word-wrap: width;
+}
+
+.passion {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  width: 35%;
+}
+
+.projects,
+.skills {
+  display: inline-block;
+  margin-top: 30 px;
+}
+
+.projects {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.skills {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  width: 35%;
+}
+
+Img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+footer,
+img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 25%;
+}
