@@ -1,0 +1,142 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 31,
+            "patches": [
+                {
+                    "date": 1689493943684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1689494268524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+body {\n+    background-image: url(\"./assets/waves-beach.gif\");\n+    background-repeat: no-repeat;\n+    background-size: cover;\n+}\n+\n+h1 {\n+    font-size: 50px;\n+    color: skyblue;\n+    text-align: center;\n+    margin-top: 100px;\n+    margin-bottom: 100px;\n+    text-shadow: 2px 2px 2px black;\n+    font-weight: bold;\n+    font-family: Calibri;\n+    font-style: italic;\n+    text-decoration: underline;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689495513905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,14 +11,21 @@\n     margin-top: 100px;\n     margin-bottom: 100px;\n     text-shadow: 2px 2px 2px black;\n     font-weight: bold;\n-    font-family: Calibri;\n+    font-family: Calibri Light, Calibri,;\n     font-style: italic;\n     text-decoration: underline;\n }\n-body {\n-    background-image: url(\"./assets/waves-beach.gif\");\n-    background-repeat: no-repeat;\n-    background-size: cover;\n \n\\ No newline at end of file\n-}\n+h2 {\n+    font-size: 30px;\n+    color: skyblue;\n+    text-align: center;\n+    margin-top: 100px;\n+    margin-bottom: 100px;\n+    text-shadow: 2px 2px 2px black;\n+    font-weight: bold;\n+    font-family: fantasy;\n+}\n+\n+\n"
+                },
+                {
+                    "date": 1689496594380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,33 @@\n+body {\n+    background-image: url(\"./assets/waves-beach.gif\");\n+    background-repeat: no-repeat;\n+    background-size: cover;\n+}\n+\n+h1 {\n+    font-size: 50px;\n+    color: skyblue;\n+    text-align: center;\n+    margin-top: 100px;\n+    margin-bottom: 100px;\n+    text-shadow: 2px 2px 2px black;\n+    font-weight: bold;\n+    font-family: Calibri Light, Calibri,;\n+    font-style: italic;\n+    text-decoration: underline;\n+}\n+\n+h2 {\n+    font-size: 30px;\n+    color: skyblue;\n+    text-align: center;\n+    margin-top: 100px;\n+    margin-bottom: 100px;\n+    text-shadow: 2px 2px 2px black;\n+    font-weight: bold;\n+    font-family: fantasy;\n+}\n+\n+.about .passion {\n+    display: inline-block;\n+}\n"
+                },
+                {
+                    "date": 1689496956832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,34 +30,12 @@\n \n .about .passion {\n     display: inline-block;\n }\n-body {\n-    background-image: url(\"./assets/waves-beach.gif\");\n-    background-repeat: no-repeat;\n-    background-size: cover;\n-}\n \n-h1 {\n-    font-size: 50px;\n-    color: skyblue;\n-    text-align: center;\n-    margin-top: 100px;\n-    margin-bottom: 100px;\n-    text-shadow: 2px 2px 2px black;\n-    font-weight: bold;\n-    font-family: Calibri Light, Calibri,;\n-    font-style: italic;\n-    text-decoration: underline;\n-}\n-\n-h2 {\n-    font-size: 30px;\n-    color: skyblue;\n-    text-align: center;\n-    margin-top: 100px;\n-    margin-bottom: 100px;\n-    text-shadow: 2px 2px 2px black;\n-    font-weight: bold;\n-    font-family: fantasy;\n-}\n-\n+.about {\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-left: 20px;\n+    margin-right: 200px;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689497200276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,5 +37,10 @@\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-left: 20px;\n     margin-right: 200px;\n+    width: 50%\n+}\n+\n+.about p {\n+    word-wrap: width ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689497354320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,5 +42,16 @@\n }\n \n .about p {\n     word-wrap: width ;\n+}\n+.passion p {\n+    word-wrap: width ;\n+}\n+\n+.passion {\n+\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689497416538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     font-weight: bold;\n     font-family: fantasy;\n }\n \n-.about .passion {\n+article {\n     display: inline-block;\n }\n \n .about {\n"
+                },
+                {
+                    "date": 1689497503666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-left: 20px;\n     margin-right: 200px;\n-    width: 50%\n+    width: 35%\n }\n \n .about p {\n     word-wrap: width ;\n@@ -53,5 +53,6 @@\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n+    width: 35%\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689500268136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,7 @@\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n     width: 35%\n-}\n\\ No newline at end of file\n+}\n+\n+\n"
+                },
+                {
+                    "date": 1689500453979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,5 +56,8 @@\n     margin-right: 20px;\n     width: 35%\n }\n \n+.projects .skills {\n+    display: inline-block;\n+}\n \n"
+                },
+                {
+                    "date": 1689500806576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,8 @@\n     margin-right: 20px;\n     width: 35%\n }\n \n-.projects .skills {\n+article .projects .skills {\n     display: inline-block;\n }\n \n"
+                },
+                {
+                    "date": 1689500964821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,4 +60,19 @@\n article .projects .skills {\n     display: inline-block;\n }\n \n+.projects  {\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n+    width: 35%;\n+}\n+\n+.skills {\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n+    width: 35%;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689501247321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,5 +74,16 @@\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n     width: 35%;\n+}\n+\n+Img {\n+    display: block;\n+    margin-left: auto;\n+    margin-right: auto;\n+    width: 35%;\n+    height: auto;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689501309340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n     margin-right: 20px;\n     width: 35%\n }\n \n-article .projects .skills {\n+.projects .skills {\n     display: inline-block;\n }\n \n .projects  {\n"
+                },
+                {
+                    "date": 1689501368245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n .projects  {\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n-    margin-right: 20px;\n+    margin-right: 1opx;\n     width: 35%;\n }\n \n .skills {\n"
+                },
+                {
+                    "date": 1689501563903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,16 +61,18 @@\n     display: inline-block;\n }\n \n .projects  {\n+    display: block;\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 1opx;\n     width: 35%;\n }\n \n .skills {\n+    display: block;\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n@@ -85,5 +87,9 @@\n     height: auto;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n+}\n+\n+footer, img {\n+    display: block;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689501633256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,95 @@\n+body {\n+    background-image: url(\"./assets/waves-beach.gif\");\n+    background-repeat: no-repeat;\n+    background-size: cover;\n+}\n+\n+h1 {\n+    font-size: 50px;\n+    color: skyblue;\n+    text-align: center;\n+    margin-top: 100px;\n+    margin-bottom: 100px;\n+    text-shadow: 2px 2px 2px black;\n+    font-weight: bold;\n+    font-family: Calibri Light, Calibri,;\n+    font-style: italic;\n+    text-decoration: underline;\n+}\n+\n+h2 {\n+    font-size: 30px;\n+    color: skyblue;\n+    text-align: center;\n+    margin-top: 100px;\n+    margin-bottom: 100px;\n+    text-shadow: 2px 2px 2px black;\n+    font-weight: bold;\n+    font-family: fantasy;\n+}\n+\n+article {\n+    display: inline-block;\n+}\n+\n+.about {\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-left: 20px;\n+    margin-right: 200px;\n+    width: 35%\n+}\n+\n+.about p {\n+    word-wrap: width ;\n+}\n+.passion p {\n+    word-wrap: width ;\n+}\n+\n+.passion {\n+\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n+    width: 35%\n+}\n+\n+.projects .skills {\n+    display: block;\n+}\n+\n+.projects  {\n+    display: block;\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 1opx;\n+    width: 35%;\n+}\n+\n+.skills {\n+    display: block;\n+    text-align: left;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n+    width: 35%;\n+}\n+\n+Img {\n+    display: block;\n+    margin-left: auto;\n+    margin-right: auto;\n+    width: 35%;\n+    height: auto;\n+    margin-top: 10px;\n+    margin-bottom: 10px;\n+    margin-right: 20px;\n+}\n+\n+footer, img {\n+    display: block;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689501876520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,111 +57,14 @@\n     width: 35%\n }\n \n .projects .skills {\n-    display: block;\n-}\n-\n-.projects  {\n-    display: block;\n-    text-align: left;\n-    margin-top: 10px;\n-    margin-bottom: 10px;\n-    margin-right: 1opx;\n-    width: 35%;\n-}\n-\n-.skills {\n-    display: block;\n-    text-align: left;\n-    margin-top: 10px;\n-    margin-bottom: 10px;\n-    margin-right: 20px;\n-    width: 35%;\n-}\n-\n-Img {\n-    display: block;\n-    margin-left: auto;\n-    margin-right: auto;\n-    width: 35%;\n-    height: auto;\n-    margin-top: 10px;\n-    margin-bottom: 10px;\n-    margin-right: 20px;\n-}\n-\n-footer, img {\n-    display: block;\n-}\n-body {\n-    background-image: url(\"./assets/waves-beach.gif\");\n-    background-repeat: no-repeat;\n-    background-size: cover;\n-}\n-\n-h1 {\n-    font-size: 50px;\n-    color: skyblue;\n-    text-align: center;\n-    margin-top: 100px;\n-    margin-bottom: 100px;\n-    text-shadow: 2px 2px 2px black;\n-    font-weight: bold;\n-    font-family: Calibri Light, Calibri,;\n-    font-style: italic;\n-    text-decoration: underline;\n-}\n-\n-h2 {\n-    font-size: 30px;\n-    color: skyblue;\n-    text-align: center;\n-    margin-top: 100px;\n-    margin-bottom: 100px;\n-    text-shadow: 2px 2px 2px black;\n-    font-weight: bold;\n-    font-family: fantasy;\n-}\n-\n-article {\n     display: inline-block;\n }\n \n-.about {\n-    text-align: left;\n+.projects  {    text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n-    margin-left: 20px;\n-    margin-right: 200px;\n-    width: 35%\n-}\n-\n-.about p {\n-    word-wrap: width ;\n-}\n-.passion p {\n-    word-wrap: width ;\n-}\n-\n-.passion {\n-\n-    text-align: left;\n-    margin-top: 10px;\n-    margin-bottom: 10px;\n-    margin-right: 20px;\n-    width: 35%\n-}\n-\n-.projects .skills {\n-    display: inline-block;\n-}\n-\n-.projects  {\n-    display: block;\n-    text-align: left;\n-    margin-top: 10px;\n-    margin-bottom: 10px;\n     margin-right: 1opx;\n     width: 35%;\n }\n \n"
+                },
+                {
+                    "date": 1689501991146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,5 +89,8 @@\n }\n \n footer, img {\n     display: block;\n+    margin-left: auto;\n+    margin-right: auto;\n+    height: 25%;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689502530035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,8 @@\n     word-wrap: width ;\n }\n \n .passion {\n-\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n@@ -60,26 +59,25 @@\n .projects .skills {\n     display: inline-block;\n }\n \n-.projects  {    text-align: left;\n+.projects {    \n+    text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 1opx;\n     width: 35%;\n }\n \n .skills {\n-    display: block;\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n     width: 35%;\n }\n \n Img {\n-    display: block;\n     margin-left: auto;\n     margin-right: auto;\n     width: 35%;\n     height: auto;\n@@ -88,9 +86,9 @@\n     margin-right: 20px;\n }\n \n footer, img {\n-    display: block;\n     margin-left: auto;\n     margin-right: auto;\n     height: 25%;\n-}\n\\ No newline at end of file\n+}\n+\n"
+                },
+                {
+                    "date": 1689503680843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,8 +87,8 @@\n }\n \n footer, img {\n     margin-left: auto;\n-    margin-right: auto;\n+    margin-right: auto; \n     height: 25%;\n }\n \n"
+                },
+                {
+                    "date": 1689503709752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n .projects {    \n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n-    margin-right: 1opx;\n+    margin-right: 10px;\n     width: 35%;\n }\n \n .skills {\n"
+                },
+                {
+                    "date": 1689503778261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n .projects {    \n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n-    margin-right: 10px;\n+    margin-right: 40px;\n     width: 35%;\n }\n \n .skills {\n"
+                },
+                {
+                    "date": 1689503809270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n .projects {    \n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n-    margin-right: 40px;\n+    margin-right: 30px;\n     width: 35%;\n }\n \n .skills {\n"
+                },
+                {
+                    "date": 1689503855979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 20px;\n-    width: 35%\n+    width: 3580%\n }\n \n .projects .skills {\n     display: inline-block;\n"
+                },
+                {
+                    "date": 1689504126586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n     text-align: left;\n     margin-top: 10px;\n     margin-bottom: 10px;\n     margin-right: 30px;\n-    width: 35%;\n+    width: 50%;\n }\n \n .skills {\n     text-align: left;\n"
+                },
+                {
+                    "date": 1689504239065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     font-weight: bold;\n     font-family: fantasy;\n }\n \n-article {\n+.about .passion {\n     display: inline-block;\n }\n \n .about {\n"
+                },
+                {
+                    "date": 1689613772426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n body {\n-    background-image: url(\"./assets/waves-beach.gif\");\n+    background-image: url(\"./\");\n     background-repeat: no-repeat;\n     background-size: cover;\n }\n \n"
+                },
+                {
+                    "date": 1689731436385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     font-weight: bold;\n     font-family: fantasy;\n }\n \n-.about .passion {\n+article .about, article .passion {\n     display: inline-block;\n }\n \n .about {\n"
+                },
+                {
+                    "date": 1689731482344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,10 @@\n   font-weight: bold;\n   font-family: fantasy;\n }\n \n-article .about,\n-article .passion {\n+.about,\n+.passion {\n   display: inline-block;\n }\n \n .about {\n"
+                },
+                {
+                    "date": 1689731585900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n body {\n-  background-image: url(\"./\");\n+  background-image: url(\"./assets/waves-beach.gif\");\n   background-repeat: no-repeat;\n   background-size: cover;\n }\n \n"
+                }
+            ],
+            "date": 1689493943684,
+            "name": "Commit-0",
+            "content": "body {\n    background-image: url(\"./assets/waves-beach.gif\");\n    background-repeat: no-repeat;\n    background-size: cover;\n\n}"
+        }
+    ]
+}
